@@ -8,18 +8,13 @@ The application features a clean, intuitive interface with smooth animations, sk
 
 ### Desktop View
 
-<table>
-  <tr>
-    <td>
+  
+<div>
       <p align="center">Search Page</p>
-      <img src="screenshots/desktop-search.png" alt="Desktop Search Page" width="100%">
-    </td>
-    <td>
+      <img src="./src/assets/search.png" alt="Desktop Search Page" width="100%">
       <p align="center">Detail Page</p>
-      <img src="screenshots/desktop-detail.png" alt="Desktop Detail Page" width="100%">
-    </td>
-  </tr>
-</table>
+      <img src="./src/assets/detail.png" alt="Desktop Detail Page" width="100%">
+</div>
 
 ### Mobile View
 
@@ -27,11 +22,11 @@ The application features a clean, intuitive interface with smooth animations, sk
   <tr>
     <td>
       <p align="center">Search Page</p>
-      <img src="screenshots/mobile-search.png" alt="Mobile Search Page" width="100%">
+      <img src="./src/assets/mobile_search.png" alt="Mobile Search Page" width="100%">
     </td>
     <td>
       <p align="center">Detail Page</p>
-      <img src="screenshots/mobile-detail.png" alt="Mobile Detail Page" width="100%">
+      <img src="./src/assets/mobile_detail.png" alt="Mobile Detail Page" width="100%">
     </td>
   </tr>
 </table>
@@ -133,6 +128,12 @@ yoprint-anime/
 ├── public/
 │   └── vite.svg
 ├── src/
+│   ├── assets
+│   │   ├── detail.png
+│   │   ├── mobile_detail.png
+│   │   ├── mobile_search.png
+│   │   ├── react.svg
+│   │   └── search.png
 │   ├── api/
 │   │   └── animeApi.ts         # API service functions
 │   ├── components/
